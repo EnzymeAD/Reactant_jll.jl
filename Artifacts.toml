@@ -1,7 +1,7 @@
 [[Reactant]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ec4c5236c343096e8fc239321cb9a5c2b338fab9"
+git-tree-sha1 = "01f434cdc06f75443bf365ee7bdb9b9cfc337fbf"
 gpu = "none"
 gpu_version = "none"
 lazy = true
@@ -10,12 +10,12 @@ mode = "opt"
 os = "linux"
 
     [[Reactant.download]]
-    sha256 = "03ea9509de44c7aeb06909f84906d5325d00e281884fdadbd89e46d3b9925cc0"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"
+    sha256 = "b58169ab486445d28607bae2bcd9e6568d53c0e2c1b904368e9b4d58543527ad"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"
 [[Reactant]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "252d56beb82392bbe8d559017d98ca20ce19c801"
+git-tree-sha1 = "4710d76af8e3355aade5ccfed66a18b17f313c5c"
 gpu = "none"
 gpu_version = "none"
 lazy = true
@@ -24,11 +24,11 @@ mode = "opt"
 os = "linux"
 
     [[Reactant.download]]
-    sha256 = "19a2c36b4f0637b7d588a5255a879a3d29d3fedac0d311590b902fda119a39ae"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.aarch64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"
+    sha256 = "651d374053b224c881beda437715719cf6c8c81aefa3dbc34c0680df4133a54e"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.aarch64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"
 [[Reactant]]
 arch = "x86_64"
-git-tree-sha1 = "40258b9f020218372d1a2fbcd7f7ed6e52df6dc3"
+git-tree-sha1 = "ef1234c46e6e49590696cecbcda21fb364b770eb"
 gpu = "none"
 gpu_version = "none"
 lazy = true
@@ -36,11 +36,11 @@ mode = "opt"
 os = "macos"
 
     [[Reactant.download]]
-    sha256 = "7673286a2f76c7a1569c285ca63428df7f18096e7eb379580af020208474df97"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz"
+    sha256 = "232375afae5e85e3d3f36da481c756e0a2ef8d6acdbdaf591528df1ac59798b9"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz"
 [[Reactant]]
 arch = "aarch64"
-git-tree-sha1 = "3752b73c7a741e92b7b38443f1e239888ee8e7cf"
+git-tree-sha1 = "4e54e89ed685fe88f1dd4f92f292dd7e22cc2abe"
 gpu = "none"
 gpu_version = "none"
 lazy = true
@@ -48,12 +48,12 @@ mode = "opt"
 os = "macos"
 
     [[Reactant.download]]
-    sha256 = "6b7c9c96bd72992a7127ea7432fc0507591b8bf9b3d0b50c52c648551546ea15"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz"
+    sha256 = "a7388b06ce6475c9485b89954f1f8fc3eb114a9b8dfca95cbdadf1301045969f"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+opt.tar.xz"
 [[Reactant]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ec57caad7b0e82e1b1b2bd5100ac2ab0c235c1b4"
+git-tree-sha1 = "958ef19c01b14e9881e7345c50f5fc5265816b1b"
 gpu = "none"
 gpu_version = "none"
 lazy = true
@@ -61,12 +61,12 @@ mode = "opt"
 os = "windows"
 
     [[Reactant.download]]
-    sha256 = "a7013306f1e01e266dc34f6986e8babb2839767a1ead22b22720a0cb75009ac0"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.x86_64-w64-mingw32-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"
+    sha256 = "380dc7ecdb72a533bdcc14f464cd23b0b9f896a1883d7587bcb6a95a7af5f407"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.x86_64-w64-mingw32-cxx11-gpu_version+none-gpu+none-mode+opt.tar.xz"
 [[Reactant]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e84df241aa1c0d6d762e0fce8b2a761827a977e8"
+git-tree-sha1 = "39f2c99f54091838dad8112d1696d1a5ff5d1797"
 gpu = "none"
 gpu_version = "none"
 lazy = true
@@ -75,11 +75,11 @@ mode = "dbg"
 os = "linux"
 
     [[Reactant.download]]
-    sha256 = "be18c82a02f31d0683b2afbc07c46c141d9b6f2bf485c2aee14d3d7a39deedb8"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+dbg.tar.xz"
+    sha256 = "a4073f03160057c37f846520ce29fc18aea1c42c6429fb95774b265d8dbea49b"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.x86_64-linux-gnu-cxx11-gpu_version+none-gpu+none-mode+dbg.tar.xz"
 [[Reactant]]
 arch = "x86_64"
-git-tree-sha1 = "e06a6573f54a8ef1a79d0cde058a6123193741ad"
+git-tree-sha1 = "214bb270bed36cff2018a22aa9512b00d23fe5c4"
 gpu = "none"
 gpu_version = "none"
 lazy = true
@@ -87,11 +87,11 @@ mode = "dbg"
 os = "macos"
 
     [[Reactant.download]]
-    sha256 = "aa4241bdcfedc4a015b7ac88fc1d582ae76b58db067a615fde95324e60203585"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz"
+    sha256 = "6e0ec5d9cb2c75825af72c7413edf92111eaf461300e940c92d69ce8b77dd25d"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.x86_64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz"
 [[Reactant]]
 arch = "aarch64"
-git-tree-sha1 = "309f94690ca8bb4fd3ad8eb77679eda652210dba"
+git-tree-sha1 = "e5c9a4575a721519721c508caf28b746f19fef4f"
 gpu = "none"
 gpu_version = "none"
 lazy = true
@@ -99,12 +99,12 @@ mode = "dbg"
 os = "macos"
 
     [[Reactant.download]]
-    sha256 = "50cac156c8a78d3c23f513142bf3d00eac96ef4a85b31882fe9ef4a3c62e70b9"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz"
+    sha256 = "73bee51b830d5613a94f67e3b3ceaf990077f05de0623680fb0cbf544b4cd197"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.aarch64-apple-darwin-gpu_version+none-gpu+none-mode+dbg.tar.xz"
 [[Reactant]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "224a6361759dea59cc2c30d7b44f1006316e0640"
+git-tree-sha1 = "6f55bbc86f65a06677bcfefa4ee759d32413b7cb"
 gpu = "cuda"
 gpu_version = "12.9"
 lazy = true
@@ -113,12 +113,12 @@ mode = "opt"
 os = "linux"
 
     [[Reactant.download]]
-    sha256 = "d5f4952e478f0c3f6934e13570f0c8b3f2add5eb6e427a9b35d4289543fc43d9"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.x86_64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz"
+    sha256 = "1b71dbf5d4d307ee9917c4d18bb3712342894c6356081396ed3e4a424c314bde"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.x86_64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz"
 [[Reactant]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "29c73c9adb031d209ca1db8cd6b3f607f019040b"
+git-tree-sha1 = "2fc723f58d46a0a92ffab49a743db03b4f3b73fc"
 gpu = "cuda"
 gpu_version = "12.9"
 lazy = true
@@ -127,12 +127,12 @@ mode = "opt"
 os = "linux"
 
     [[Reactant.download]]
-    sha256 = "f0f869583033f5aaab29b8dfde83e98b66b42aaabddf4f5a10d6aa77812f2cfc"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.aarch64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz"
+    sha256 = "a3b6f555f269f791e183f6e696e09c5c674c8328f8b23fa213b74624db603044"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.aarch64-linux-gnu-cxx11-gpu_version+12.9-gpu+cuda-mode+opt.tar.xz"
 [[Reactant]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "9a1c9eb024b303ab70cca475875e13848ff13084"
+git-tree-sha1 = "613544879646260ce8e439127b43639272e51050"
 gpu = "cuda"
 gpu_version = "13.0"
 lazy = true
@@ -141,12 +141,12 @@ mode = "opt"
 os = "linux"
 
     [[Reactant.download]]
-    sha256 = "ec377fd16b4fd5f4e7e050fe0db5c33b391e5beee6ba5ecdcdba841a6c1bcb3c"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.x86_64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz"
+    sha256 = "22c204fc257a22a8dc03a0f62daba733b32aed0fc91991d3f2fe6031628422bd"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.x86_64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz"
 [[Reactant]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "635fef76bb9aa476e7fd0442a59eb2de52d49e25"
+git-tree-sha1 = "c34172916dee4c814fe51ebd74ad099a17b2a264"
 gpu = "cuda"
 gpu_version = "13.0"
 lazy = true
@@ -155,12 +155,12 @@ mode = "opt"
 os = "linux"
 
     [[Reactant.download]]
-    sha256 = "7cdf1f3d181593d0894a33c6d75eb4bb6dccd5010040d18933144e83ff87a165"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.aarch64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz"
+    sha256 = "e0bc539664914004c3646578894950866a90afde2454d16f2e9f733547b47941"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.aarch64-linux-gnu-cxx11-gpu_version+13.0-gpu+cuda-mode+opt.tar.xz"
 [[Reactant]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "fb4881eeb79561897531be96ef3980cdc36931e8"
+git-tree-sha1 = "8a998a17abafaa4b9bf0d6f3c188ffd107a9e309"
 gpu = "rocm"
 gpu_version = "7.1"
 lazy = true
@@ -169,5 +169,5 @@ mode = "opt"
 os = "linux"
 
     [[Reactant.download]]
-    sha256 = "20900b98f796381a2b07671f2c177d2e7eb64a0afbceebb2ba689e8614e68cfa"
-    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.305+0/Reactant.v0.0.305.x86_64-linux-gnu-cxx11-gpu_version+7.1-gpu+rocm-mode+opt.tar.xz"
+    sha256 = "2bf8209e879089067c027bdc2fabc0ed9111100e2eecb612dfb6fc03b706bb7f"
+    url = "https://github.com/EnzymeAD/Reactant_jll.jl/releases/download/Reactant-v0.0.306+0/Reactant.v0.0.306.x86_64-linux-gnu-cxx11-gpu_version+7.1-gpu+rocm-mode+opt.tar.xz"
