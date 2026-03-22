@@ -14,12 +14,12 @@ JLLWrappers.@declare_library_product(libcudnn_ops, "libcudnn_ops.so.9")
 JLLWrappers.@declare_library_product(libnccl, "libnccl.so.2")
 JLLWrappers.@declare_library_product(libnvrtc, "libnvrtc.so.13")
 JLLWrappers.@declare_library_product(libnvrtc_builtins, "libnvrtc-builtins.so.13.1")
-JLLWrappers.@declare_executable_product(fatbinary)
-JLLWrappers.@declare_file_product(libdevice)
 JLLWrappers.@declare_file_product(libnvshmem_device)
 JLLWrappers.@declare_library_product(libnvshmem_host, "libnvshmem_host.so.3")
 JLLWrappers.@declare_library_product(nvshmem_bootstrap_uid, "nvshmem_bootstrap_uid.so.3")
 JLLWrappers.@declare_library_product(nvshmem_transport_ibrc, "nvshmem_transport_ibrc.so.3")
+JLLWrappers.@declare_executable_product(fatbinary)
+JLLWrappers.@declare_file_product(libdevice)
 JLLWrappers.@declare_executable_product(ptxas)
 function __init__()
     JLLWrappers.@generate_init_header()
@@ -95,16 +95,6 @@ function __init__()
         nothing,
     )
 
-    JLLWrappers.@init_executable_product(
-        fatbinary,
-        "lib/cuda/bin/fatbinary",
-    )
-
-    JLLWrappers.@init_file_product(
-        libdevice,
-        "lib/cuda/nvvm/libdevice/libdevice.10.bc",
-    )
-
     JLLWrappers.@init_file_product(
         libnvshmem_device,
         "lib/libnvshmem_device.bc",
@@ -126,6 +116,16 @@ function __init__()
         nvshmem_transport_ibrc,
         "lib/nvshmem_transport_ibrc.so.3",
         nothing,
+    )
+
+    JLLWrappers.@init_executable_product(
+        fatbinary,
+        "lib/cuda/bin/fatbinary",
+    )
+
+    JLLWrappers.@init_file_product(
+        libdevice,
+        "lib/cuda/nvvm/libdevice/libdevice.10.bc",
     )
 
     JLLWrappers.@init_executable_product(
