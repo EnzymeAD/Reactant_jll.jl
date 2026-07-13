@@ -11,11 +11,11 @@ JLLWrappers.@declare_library_product(libcudnn_engines_runtime_compiled, "libcudn
 JLLWrappers.@declare_library_product(libcudnn_graph, "libcudnn_graph.so.9")
 JLLWrappers.@declare_library_product(libcudnn_heuristic, "libcudnn_heuristic.so.9")
 JLLWrappers.@declare_library_product(libcudnn_ops, "libcudnn_ops.so.9")
-JLLWrappers.@declare_library_product(libnccl, "libnccl.so.2")
 JLLWrappers.@declare_library_product(libnvrtc, "libnvrtc.so.12")
 JLLWrappers.@declare_library_product(libnvrtc_builtins, "libnvrtc-builtins.so.12.9")
 JLLWrappers.@declare_executable_product(fatbinary)
 JLLWrappers.@declare_file_product(libdevice)
+JLLWrappers.@declare_library_product(libnccl, "libnccl.so.2")
 JLLWrappers.@declare_executable_product(ptxas)
 function __init__()
     JLLWrappers.@generate_init_header()
@@ -74,12 +74,6 @@ function __init__()
     )
 
     JLLWrappers.@init_library_product(
-        libnccl,
-        "lib/libnccl.so.2",
-        nothing,
-    )
-
-    JLLWrappers.@init_library_product(
         libnvrtc,
         "lib/libnvrtc.so.12",
         nothing,
@@ -99,6 +93,12 @@ function __init__()
     JLLWrappers.@init_file_product(
         libdevice,
         "lib/cuda/nvvm/libdevice/libdevice.10.bc",
+    )
+
+    JLLWrappers.@init_library_product(
+        libnccl,
+        "lib/libnccl.so.2",
+        nothing,
     )
 
     JLLWrappers.@init_executable_product(
