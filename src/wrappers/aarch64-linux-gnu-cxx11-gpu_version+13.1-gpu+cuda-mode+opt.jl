@@ -3,9 +3,9 @@ export fatbinary, libReactantExtra, libdevice, libnccl, ptxas
 
 JLLWrappers.@generate_wrapper_header("Reactant")
 JLLWrappers.@declare_library_product(libReactantExtra, "libReactantExtra.so")
+JLLWrappers.@declare_file_product(libdevice)
 JLLWrappers.@declare_library_product(libnccl, "libnccl.so.2")
 JLLWrappers.@declare_executable_product(fatbinary)
-JLLWrappers.@declare_file_product(libdevice)
 JLLWrappers.@declare_executable_product(ptxas)
 function __init__()
     JLLWrappers.@generate_init_header()
@@ -13,6 +13,11 @@ function __init__()
         libReactantExtra,
         "lib/libReactantExtra.so",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_file_product(
+        libdevice,
+        "lib/cuda/nvvm/libdevice/libdevice.10.bc",
     )
 
     JLLWrappers.@init_library_product(
@@ -24,11 +29,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         fatbinary,
         "lib/cuda/bin/fatbinary",
-    )
-
-    JLLWrappers.@init_file_product(
-        libdevice,
-        "lib/cuda/nvvm/libdevice/libdevice.10.bc",
     )
 
     JLLWrappers.@init_executable_product(
